@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: #65bcd7;
+  color: white;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 60px; 
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.menu a:hover {
+  background-color: #555;
+}

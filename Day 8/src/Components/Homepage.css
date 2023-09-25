@@ -1,0 +1,159 @@
+
+.homepage-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-top: 4%;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+.featured-flights {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flight-card {
+  background-color: #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+  ransition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.flight-card:hover {
+  background-color: #2f2e2e; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-5px); 
+}
+
+.flight-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.flight-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.flight-card p {
+  color: #ffffff;
+}
+
+.search-flights {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.search-flights h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.search-flights p {
+  font-size: 18px;
+}
+
+.search-button {
+  background-color: #0381ff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.search-button:hover {
+  background-color: #252221;
+}
+
+
+.testimonials {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 24px;
+}
+
+.footer p {
+  font-size: 18px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+
+@media (max-width: 768px) {
+  .featured-flights, .testimonials {
+    justify-content: flex-start;
+  }
+
+  .flight-card, .testimonial {
+    width: 100%;
+  }
+}
+
+

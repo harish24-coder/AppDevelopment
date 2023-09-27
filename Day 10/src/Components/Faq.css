@@ -1,0 +1,67 @@
+/* Advanced CSS for Faq.js */
+
+/* Container styling */
+.faq-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styling */
+.faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #0056b3;
+}
+
+.faq-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+/* Content styling */
+.faq-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.faq-list {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-weight: bold;
+  color: #333;
+}
+
+.faq-answer {
+  margin-top: 10px;
+}
+
+/* Sub-list styling */
+.sub-list {
+  list-style-type: lower-alpha;
+  margin-left: 20px;
+}
